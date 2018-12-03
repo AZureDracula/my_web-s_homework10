@@ -1,0 +1,89 @@
+.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #555;
+	overflow: hidden;
+	width: 48%;
+	display: inline-block;
+	z-index: 5;
+}
+
+.nav_li {
+	display: inline-block;
+	float: left;
+	width: 25%;
+}
+
+.nav_a {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	width: 100%;
+	padding: 1.3em 0px;
+	text-decoration: none;
+	font-family: "黑体";
+	font-size: 1.3em;
+	line-height: 1em;
+}
+
+.nav_a:hover {
+	background-color: #111;
+	color: white;
+}
+
+.nav_a_active {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	padding: 1.3em 0px;
+	text-decoration: none;
+	font-family: "黑体";
+	font-size: 1.3em;
+	line-height: 1em;
+	background-color: #4CAF50;
+	color: white;
+}
+.nav_div{
+	background-color: #555;
+}
+.logo{
+	float: left;
+	display: inline-block;
+	color: white;
+	line-height: 70px;
+	height: 74.88px;
+	margin-right:4% ;
+	margin-left: 2%;
+	cursor: pointer;
+}
+.logo_img{
+	float: left;
+	position: relative;
+	top: 6px;
+	margin-left: 2%;
+	cursor: pointer;
+	
+}
+.nav_span{
+	cursor: pointer;
+	float: right;
+	line-height: 74px;
+	margin-right:30px ;
+	display: inline-block;
+}
+.nav_span:hover{
+	color: white;
+}
+.touxiang{
+	height: 32px;
+	width: 32px;
+	border-radius: 16px;
+	background-image: url(../img/akari.jpg);
+	background-size: 32px;
+	float: right;
+	position: relative;
+	top: 20px;
+	margin-right: 10px;
+	cursor: pointer;
+}

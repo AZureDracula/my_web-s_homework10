@@ -1,0 +1,345 @@
+#black{
+	display: none;
+	position: absolute;
+	background-color: black;
+	z-index: 1000;
+	opacity: 0.75;
+	top: 0px;
+	left: 0px;
+	height: 800px;
+	width: 960px;
+
+}
+#window{
+	position: fixed;
+	z-index: 10000;
+	padding-bottom: 30px;
+	padding-top: 10px ;
+	height: 500px;
+	width: 384px;
+	background-color: white;
+	top: 20%;
+	left: 27%;
+	display: none;
+	border-radius: 14px;
+}
+
+.window_title{
+	padding: 0px 20px 25px;
+	position: relative;
+}
+#denglu{
+	
+	display: inline-block;
+    width: 80px;
+    text-align: center;
+    height: 49px;
+    line-height: 49px;
+    cursor: pointer;
+	font-size: 16px;
+    font-weight: 700;
+    color: #787d82;
+}
+#zhuce{
+	display: inline-block;
+	width: 80px;
+    text-align: center;
+    height: 49px;
+    line-height: 49px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    color: #787d82;
+}
+#zhuce:hover{
+	color: #F20D0D;
+
+	
+}
+#line2:hover{
+
+	background-color: #F20D0D;
+	
+}
+#line1:hover{
+
+	background-color: #F20D0D;
+	
+}
+#denglu:hover{
+	color: #F20D0D;
+}
+#line1{
+	width: 16px;
+    height: 4px;
+    line-height: 4px;
+    background-color:white ;
+    border-radius: 2px;
+	display: inline-block;
+  	left: 53px;
+  	top: 50px;
+    position: absolute;
+    
+}
+
+#line2{
+	width: 16px;
+    height: 4px;
+    line-height: 4px;
+    background-color:white ;
+    border-radius: 2px;
+	display: inline-block;
+  	left: 138px;
+  	top: 50px;
+    position: absolute;
+    
+    
+}
+
+#quit{
+	
+	background-image: url(../img/nlogin.png) ;
+	background-repeat:no-repeat;
+	display: inline-block;
+	position: absolute;
+    top: 17px;
+    right: 20px;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+#quit:hover{
+	background-image: url(../img/nlogin.png) ;
+	background-repeat:no-repeat;
+	background-position-y:-22px;
+}
+#wrong_1{
+	font-size: 12px;
+    height: 20px;
+    clear: both;
+  	display: none;
+    color: #EF1300;
+    line-height: 20px;
+    position: relative;
+}
+#wrong_2{
+	font-size: 12px;
+    height: 20px;
+    clear: both;
+  	display: none;
+    color: #EF1300;
+    position: relative;
+    line-height: 20px;
+}
+#wrong_3{
+	font-size: 12px;
+    height: 20px;
+    clear: both;
+    display: none;
+    color: #EF1300;
+    line-height: 20px;
+    position: relative;
+        
+}
+#wrong_4{
+	font-size: 12px;
+    height: 20px;
+    clear: both;
+  	display: none;
+    color: #EF1300;
+    line-height: 20px;
+    position: relative;
+}
+
+#sign_form{
+	display: block;
+	color: #1c1f21;
+}
+.inputzh{
+	width: 292px;
+    height: 48px;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding: 14px;
+    border: none;
+    background: #F2F2F2;
+    border-radius: 8px;
+}
+.inputmm{
+	width: 292px;
+    height: 48px;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding: 14px;
+    background: #F2F2F2;
+    
+    border-radius: 8px;
+    border: none;
+}
+.inputyzm{
+	width: 132px;
+	height: 48px;
+    line-height: 20px;
+    box-sizing: border-box;
+    padding: 14px;
+    background: #F2F2F2;
+    
+    border-radius: 8px;
+    border: none;
+}
+#form1{
+	    padding: 0 40px;
+}
+#zhanghao{
+	height: 72px;
+}
+#passwords{
+	height: 70px;
+}
+#yanzhengma_div{
+	height: 75px;
+}
+.tishi{
+	margin-right: 10px;
+	color: #9199A1;
+	font-size: 13px;
+	float: left;
+    
+}
+.a1{
+	color: #9199A1;
+	width:  56px;
+	height: 14px;
+	float: right;
+	font-size: 13px;
+	cursor: pointer;
+}
+.gang{
+	color: #9199A1;
+	display: inline-block;
+	width: 33px ;
+	height: 14px;
+	float: right;
+	font-size: 13px;
+	text-align: center;
+}
+.ma{
+	display: inline-block;
+	line-height: 20px;
+	float: right;
+}
+.button_dl{
+	
+	width: 100%;
+	
+    box-sizing: border-box;
+    padding: 11px 32px;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 24px;
+    cursor: pointer;
+    transition: all .3s;
+    background-color: #f20d0d;
+    position: relative;
+    display: block;
+    margin-bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+.button_dl:hover{
+	background-color: #C20A0A
+}
+#fotter1{
+	padding: 20px 30px 4px;
+	height: 26px;
+	width: 324px;
+}
+.fotter_span{
+	margin-left: 30px;
+    margin-right: 24px;
+    padding-right: 24px;
+    display: inline-block;
+    font-size: 14px;
+    color: #F20D0D;
+    text-align: left;
+    line-height: 24px;
+    border-right: 1px solid #1A1C1F21;
+    cursor: pointer;
+    float: left;
+}
+.fotter_span2{
+	margin-left: 0px;
+    margin-right: 24px;
+    padding-right: 24px;
+    display: inline-block;
+    font-size: 14px;
+    color: #F20D0D;
+    text-align: left;
+    line-height: 24px;
+    border-right: 1px solid #1A1C1F21;
+    cursor: pointer;
+    
+}
+i{
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+	margin-right: 10px;
+	color: #9199A1;
+}
+.i1:hover{
+	color: #F01400;
+}
+.i2:hover{
+	color: #00B33B;
+}
+.i3:hover{
+	color: #0088CC;
+}
+.erweima{
+	width: 60px;
+    height: 60px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    cursor: pointer;
+    background-image: url(../img/erweima.png);
+	background-repeat: no-repeat;
+}
+#page2{
+	display: none;
+}
+#form2{
+	padding: 0 40px;
+}
+.color{
+	color:#F20D0D  !important;
+}
+.bgcolor{
+	background-color: #F20D0D !important;
+}
+#wrong_zhucezhanghao{
+	font-size: 12px;
+    height: 20px;
+    clear: both;
+    display: none;
+    color: #EF1300;
+    line-height: 20px;
+}
+#yanzhengma_div2{
+	height: 75px;
+}
+#wrong_yzm2{
+	font-size: 12px;
+    height: 20px;
+    clear: both;
+  	display: none;
+  	
+    color: #EF1300;
+    line-height: 20px;
+}
+#zhucezhanghao{
+	height: 72px;
+}

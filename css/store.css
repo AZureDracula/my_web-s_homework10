@@ -1,0 +1,138 @@
+
+.store_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 2100px;
+    background-color: #f1f1f1;
+    display: inline-block;
+    float: left;
+}
+
+
+
+.store_li_on {
+	  display: block;
+    color: #000;
+    padding: 16px 20px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+}
+.store_li{
+	   display: block;
+    color: #000;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+.store_li:hover{
+	 display: block;
+    color: #000;
+    padding: 16px 20px;
+    text-decoration: none;
+   
+    background-color: #555;
+    color: white;
+}
+#store_right_all{
+	display: inline-block;
+	width:760px ;
+	height: 1000px;
+	background-color: red;
+	float: right;
+}
+/****************************************************************************************************/
+.product_all {
+	width: 100%;
+	height: auto;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:  space-around;
+}
+
+.product {
+	width: 284px;
+	margin: 2% 1%;
+	display: inline-block;
+	height: 484px;
+	background-color: #FFFFFF;
+	text-align: center;
+	
+}
+.product0{
+	width: 280px;
+	margin: auto auto;
+	display: inline-block;
+	height: 480px;
+	background-color: #FFFFFF;
+	text-align: center;
+	border: solid 4px white;
+	-webkit-transition: all 0.5s;/*执行动画时长*/
+	transition: all 0.5s;
+	
+}
+@-webkit-keyframes rainbow{
+				0%{border: orange 4px solid;}
+				25%{border: green 4px solid;}
+				50%{border: blue 4px solid;}
+				75%{border: purple 4px solid;}
+				100%{border: orange 4px solid;}
+				
+			}
+			@keyframes rainbow{
+				0%{border: orange 4px solid;}
+				25%{border: green 4px solid;}
+				50%{border: blue 4px solid;}
+				75%{border: purple 4px solid;}
+				100%{border: orange 4px solid;}
+				
+			}
+.product0:hover{
+		border: solid 4px orange;
+	-webkit-transform: translate(-8px,-8px);/*移动*/
+	transform: translate(-8px,-8px);
+	-webkit-animation: rainbow 1s infinite alternate;
+	animation: rainbow 1s infinite alternate;	
+}
+
+#p111 {
+	background-image: url(../img/111.png);
+	background-repeat: no-repeat;
+}
+
+#p211 {
+	background-image: url(../img/111.png);
+	background-repeat: no-repeat;
+}
+
+#p311 {
+	background-image: url(../img/111.png);
+	background-repeat: no-repeat;
+}
+
+#p411 {
+	background-image: url(../img/111.png);
+	background-repeat: no-repeat;
+}
+
+#p511 {
+	background-image: url(../img/111.png);
+	background-repeat: no-repeat;
+}
+
+#p611{
+	background-image: url(../img/111.png);
+	background-repeat: no-repeat;
+}
+
+#p711 {
+	background-image: url(../img/111.png);
+	background-repeat: no-repeat;
+}
+
+#p811 {
+	background-image: url(../img/111.png);
+	background-repeat: no-repeat;
+}

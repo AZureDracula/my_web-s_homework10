@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>绿茵峥嵘---官网</title>
+		<link rel="stylesheet" href="css/jdgdt1.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/nav.css" />	
+		<link rel="stylesheet" href="css/sign_up.css" />
+		<link rel="stylesheet" href="css/footer_out.css" />
+		<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css" />
+		<link rel="shortcut icon" href="img/1.ico" />
+		<style>
+			@font-face {
+				font-family: zzt1;
+				src: url(han.ttf);
+			}
+			
+			.logo {
+				font-family: zzt1;
+				font-size: 30px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="all_index" style=" height: 2000px;">
+			<!------------------------------------------------------------------------------------------------------------------->
+			<div id="black"></div>
+			<div id="window">
+
+				<div class="window_title">
+
+					<span class="color" id="denglu">登录<span class="bgcolor" id="line1"></span></span>
+					<span id="zhuce">注册<span id="line2"></span></span>
+					<span id="quit"></span>
+
+				</div>
+
+				<div id="page1">
+					<div id="form1">
+						<form id="sign_form1">
+							<div id="zhanghao">
+								<input id="value1" name="username" maxlength="37" class="inputzh" required="required" type="text" placeholder="请输入登录手机号/邮箱" />
+
+							</div>
+							<div id="passwords">
+								<input id="value2" name="password" maxlength="16" class="inputmm" type="password" required="required" placeholder="请输入密码" />
+
+							</div>
+							<div id="yanzhengma_div">
+								<input id="yanzhengma_input1" name="code" maxlength="4" class="inputyzm" required="required" type="text" placeholder="请输入验证码" />
+								<div class="ma">
+									<img id="yanzhengma" src="http://tech.sky31.top/code.php" width="151px" height="55px" alt="这是一个验证码" />
+								</div>
+
+								<p id="wrong_1">请完整填写账号，密码，验证码</p>
+								<p id="wrong_2">账号密码格式错误，账号为手机号或邮箱，密码为6-16位区分大小写,不能用空格</p>
+								<p id="wrong_3">用户名或密码错误</p>
+								<p id="wrong_4">验证码错误</p>
+
+							</div>
+							<div style="clear: both;">&nbsp;</div>
+							<div id="bottom1">
+								<label class="tishi"><input style="line-height: 18px;" class="check" type="checkbox"  />&nbsp;&nbsp;7天内自动登录</label>
+
+								<a class="a1">找回密码</a>
+								<span class="gang" style="display: inline-block;">|</span>
+								<a class="a1">无法登陆</a>
+							</div>
+							<div style="clear: both;">&nbsp;</div>
+							<div id="anniu_div">
+								<input type="button" value="登录" class="button_dl" id="button_dl" onclick="load()" />
+							</div>
+						</form>
+					</div>
+					<div id="fotter1">
+						<span class="fotter_span">手机短信登录</span>
+						<i class="fa fa-weibo i1 " aria-hidden="true"></i>
+						<i class="fa fa-weixin i2" aria-hidden="true"></i>
+						<i class="fa fa-qq i3" aria-hidden="true"></i>
+
+					</div>
+					<div class="erweima"></div>
+					<p id="output"></p>
+					<p id="p1"></p>
+
+				</div>
+
+				<div id="page2">
+					<div id="form2">
+						<form id="sign_form2">
+							<div id="zhucezhanghao">
+								<input maxlength="37" class="inputzh" required="required" type="text" value="" placeholder="请输入注册手机号" />
+
+							</div>
+							<div id="yanzhengma_div2">
+								<input id="yanzhengma_input2" maxlength="4" class="inputyzm" required="required" type="text" value="" placeholder="请输入验证码" />
+								<div class="ma">
+									<img id="yanzhengma2" src="http://tech.sky31.top/code.php" width="151px" height="55px" alt="后端网站过期" />
+								</div>
+								<p id="wrong_yzm2">验证码输入错误</p>
+
+							</div>
+							<label class="tishi"><input required="required" style="line-height: 18px;" class="check" type="checkbox"  />&nbsp;&nbsp;同意<a style="color:  deepskyblue;cursor: pointer;">《绿茵峥嵘注册协议》</a></label>
+							<input style="margin-top: 40px;" type="button" value="注册" class="button_dl" id="button_zc" />
+						</form>
+						<div id="fotter1">
+							<span class="fotter_span2">其他登录方式</span>
+
+							<i class="fa fa-qq i3" aria-hidden="true"></i>
+							<i class="fa fa-weixin i2" aria-hidden="true"></i>
+							<i class="fa fa-weibo i1 " aria-hidden="true"></i>
+
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+
+			<!-------------------------------------------------------登录界面---------------------------------------------->
+
+			<div class="nav_div">
+				<img src="img/logo1.png" class="logo_img" />
+				<span class="logo">绿茵峥嵘</span>
+				<ul class="nav">
+					<li class="nav_li">
+						<a class="nav_a_active" href="index.html">首页</a>
+					</li>
+					<li class="nav_li">
+						<a class="nav_a" href="compete.html">订场约战</a>
+					</li>
+					<li class="nav_li">
+						<a target="_blank" class="nav_a" href="http://sports.pptv.com/">比赛视频</a>
+					</li>
+					<li class="nav_li">
+						<a class="nav_a" href="store.html">装备商城</a>
+					</li>
+
+				</ul>
+				<span class="nav_span">下载</span>
+				<span class="nav_span" id="sign_in">登录/注册</span>
+				<div class="touxiang"></div>
+
+			</div>
+			<!---------------------------------------------上面是头部------------------------------------------------------------->
+
+			<div class="wrap" id="wrap">
+				<ul id="pic" style="left: -960px;">
+					<li>
+						<div class="picr collor5" id="picture_1">
+							<a target="_blank" href="https://www.dongqiudi.com/archive/870521.html"><img src="img/ChOxM1wDvkmAb7_2AAGcEZqXPWI129_gaitubao_com_960x500.jpg" / width="960px" height="500px"></a>
+
+						</div>
+					</li>
+					<li>
+						<div class="picr collor1" id="picture_2">
+							<a target="_blank" href="https://h5.qzone.qq.com/ugc/share?ticket=&stat=&srctype=10&g_f=2000000209&no_topbar=1&res_uin=3253296641&appid=311&cellid=015ee9c1ecafe75ba7e50700&subid=&g_ut=3&plg_dev=1&plg_usr=1&plg_auth=1&plg_nld=1&plg_uin=1"><img src="img/1 (7)_gaitubao_com_960x500.jpeg" / width="960px" height="500px"></a>
+						</div>
+					</li>
+					<li>
+						<div class="picr collor2" id="picture_3">
+							<a target="_blank" href="https://www.dongqiudi.com/archive/870601.html"><img src="img/1543761833178_gaitubao_com_960x500.jpg" / width="960px" height="500px"></a>
+						</div>
+					</li>
+					<li>
+						<div class="picr collor3" id="picture_4">
+							<a target="_blank" href="https://www.dongqiudi.com/archive/870116.html"><img src="img/ChOxM1wDFKOAMv95AAJERWtQJ1I353_gaitubao_com_960x500.jpg" / width="960px" height="500px"></a>
+						</div>
+					</li>
+					<li>
+						<div class="picr collor4" id="picture_5">
+							<a target="_blank" href="https://h5.qzone.qq.com/ugc/share?ticket=&stat=&srctype=10&g_f=2000000209&no_topbar=1&res_uin=3253296641&appid=311&cellid=015ee9c1ecafe75ba7e50700&subid=&g_ut=3&plg_dev=1&plg_usr=1&plg_auth=1&plg_nld=1&plg_uin=1"><img src="img/1 (8)_gaitubao_com_960x500.jpeg" / width="960px" height="500px"></a>
+						</div>
+					</li>
+					<li>
+						<div class="picr collor5" id="picture_6">
+							<a target="_blank" href="https://www.dongqiudi.com/archive/870521.html"><img src="img/ChOxM1wDvkmAb7_2AAGcEZqXPWI129_gaitubao_com_960x500.jpg" / width="960px" height="500px"></a>
+						</div>
+					</li>
+					<li>
+						<div class="picr collor1" id="picture_7">
+							<a target="_blank" href="https://h5.qzone.qq.com/ugc/share?ticket=&stat=&srctype=10&g_f=2000000209&no_topbar=1&res_uin=3253296641&appid=311&cellid=015ee9c1ecafe75ba7e50700&subid=&g_ut=3&plg_dev=1&plg_usr=1&plg_auth=1&plg_nld=1&plg_uin=1"><img src="img/1 (7)_gaitubao_com_960x500.jpeg" / width="960px" height="500px"></a>
+						</div>
+					</li>
+				</ul>
+				<ul id="list">
+					<li class="on"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<a class="Prev" id="Prev">
+					<</a>
+						<a class="Next" id="Next">></a>
+			</div>
+			<!--
+	作者：1747004181@qq.com
+	时间：2018-12-03
+	描述：上面焦点滚动图
+-->
+			<br/><br/>
+			<div id="index_mid_nav_all">
+				<div class="index_mid_nav_little on_nav_little">头条</div>
+				<div class="index_mid_nav_little">欧冠</div>
+				<div class="index_mid_nav_little">国际</div>
+				<div class="index_mid_nav_little">校内</div>
+				<div class="index_mid_nav_little">西甲</div>
+				<div class="index_mid_nav_little">英超</div>
+				<div class="index_mid_nav_little">德甲</div>
+				<div class="index_mid_nav_little">中超</div>
+				<div class="index_mid_nav_little">法甲</div>
+				<div class="index_mid_nav_little">其他</div>
+				<hr />
+				<!--
+                	作者：1747004181@qq.com
+                	时间：2018-12-03
+                	描述：新闻
+                -->
+				<div class="index_news_div">
+					<a target="_blank" href="https://www.dongqiudi.com/archive/870601.html"><img class="index_news_div_img" src="img/22.jpg" width="180px" height="135px" />
+						<div class="index_news_div_font">
+							<span class="index_news_bigfont">世上再无罗贝里---罗本：这是我在拜仁的最后一年</span></a>
+					<span class="index_news_littlefont">拜仁慕尼黑主席赫内斯也表示：“这个赛季可能是罗本和里贝里在拜仁的最后一年。”</span>
+					<span class="index_news_timefont">2018-12-02 21:55:29</span>
+					<span class="index_news_footerfont">来源：懂球帝</span>
+					</div>
+				</div>
+				<hr />
+				<div class="index_news_div">
+					<a target="_blank" href="https://www.dongqiudi.com/archive/870371.html"><img class="index_news_div_img" src="img/23.png" width="180px" height="135px" />
+						<div class="index_news_div_font">
+							<span class="index_news_bigfont">14轮10球！C罗追平尤文传奇球星61年纪录</span></a>
+					<span class="index_news_littlefont">C罗在意甲前14轮攻入10球追平了斑马军团传奇球星约翰-查尔斯在61年前创造的纪录。</span>
+					<span class="index_news_timefont">2018-12-02 11:49:55</span>
+					<span class="index_news_footerfont">来源：懂球帝</span>
+					</div>
+				</div>
+				<hr />
+				<div class="index_news_div">
+					<a target="_blank" href="https://h5.qzone.qq.com/ugc/share?ticket=&stat=&srctype=10&g_f=2000000209&no_topbar=1&res_uin=3253296641&appid=311&cellid=015ee9c1ecafe75ba7e50700&subid=&g_ut=3&plg_dev=1&plg_usr=1&plg_auth=1&plg_nld=1&plg_uin=1"><img class="index_news_div_img" src="img/21.jpeg" width="180px" height="135px" />
+						<div class="index_news_div_font">
+							<span class="index_news_bigfont">湘大五人制足球赛：最佳射手：金瑶</span></a>
+					<span class="index_news_littlefont">湘潭大学五人制足球赛最佳射手：金瑶（教职工三队）</span>
+					<span class="index_news_timefont">2018-11-11 12:28:29</span>
+					<span class="index_news_footerfont">来源：湘潭大学足球协会</span>
+					</div>
+				</div>
+				<hr />
+				<div class="index_news_div">
+					<a target="_blank" href="https://m.dongqiudi.com/article_share/848297.html"><img class="index_news_div_img" src="img/24.jpg" width="180px" height="135px" />
+						<div class="index_news_div_font">
+							<span class="index_news_bigfont">欧冠小组赛第四轮，曼联客场2-1逆转绝杀尤文</span></a>
+					<span class="index_news_littlefont">欧冠小组赛第四轮，曼联客场2-1逆转绝杀尤文，C罗进尤文生涯欧冠首球，马塔破门</span>
+					<span class="index_news_timefont">2018-11-08 05:55:00</span>
+					<span class="index_news_footerfont">来源：懂球帝</span>
+					</div>
+				</div>
+				<hr />
+				<div class="index_news_div">
+					<a target="_blank" href="gym/gym.html"><img class="index_news_div_img" src="img/25.jpg" width="180px" height="135px" />
+						<div class="index_news_div_font">
+							<span class="index_news_bigfont">经典回顾---欧冠 拜仁VS皇马 </span></a>
+					<span class="index_news_littlefont">欧冠 拜仁慕尼黑VS皇家马德里---阵容分析</span>
+					<span class="index_news_timefont">2018-12-03 02:36:58</span>
+					<span class="index_news_footerfont">来源：月尨</span>
+					</div>
+				</div>
+				<hr />
+
+			</div>
+
+			<!--
+	作者：1747004181@qq.com
+	时间：2018-12-03
+	描述：上面是新闻内容
+-->
+
+
+
+
+
+<!--
+	作者：1747004181@qq.com
+	时间：2018-12-03
+	描述：下面是底部
+-->
+			<div class="footer_all">
+
+				<div class="footer_top">
+					<div class="footer_left">
+						<span class="footer_title1">相关链接:</span>
+						<span style="display: block;"><a target="_blank" class="foooter_a" href="http://www.dongqiudi.com/">懂球帝官网</a></span>
+						<span style="display: block;"><a target="_blank" class="foooter_a" href="https://soccer.hupu.com/">虎扑足球官网</a></span>
+						<span style="display: block;"><a target="_blank" class="foooter_a" href="http://www.thecfa.cn/">中国足球协会官网</a></span>
+						<span style="display: block;"><a target="_blank" class="foooter_a" href="https://space.bilibili.com/66444074/#/">哔哩哔哩</a> </span>
+					</div>
+					<div class="footer_right">
+						<span style="display: block; margin-top: 2em;"><a target="_blank" class="foooter_a" href="href=mailto:1747004181@qq.com">联系我们</a></span>
+						<span style="display: block;"><a target="_blank" class="foooter_a" href="404/demo.html">隐私政策</a> </span>
+						<span style="display: block;"><a target="_blank" class="foooter_a" href="404/demo.html">法律信息</a></span>
+						<span style="display: block;"><a target="_blank" class="foooter_a" href="#">返回顶部</a> </span>
+					</div>
+
+				</div>
+				<div class="footer_bottom">
+
+					<p>Copyright ©2018 AZureDragon</p>
+
+				</div>
+
+			</div>
+
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jdgdt1.js"></script>
+	<script type="text/javascript" src="js/登录.js"></script>
+	<!--<script type="text/javascript" src="js/登录2.js"></script>-->
+
+</html>

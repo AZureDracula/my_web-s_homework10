@@ -1,0 +1,62 @@
+.footer_all {
+	height: 20em;
+	/* 可以改动 */
+	width: 100%;
+	
+	margin-top: -10px;
+}
+
+.footer_bottom {
+	height: 10%;
+	width: 100%;
+	text-align: center;
+	background-color:black ;
+	line-height: 200%;
+	color: #C9BB8C;
+}
+
+.footer_top {
+	width: 100%;
+	height: 90%;
+	background-color:black ;
+	overflow: auto;
+	color: #C9BB8C;
+}
+
+.footer_left {
+	background-color: black;
+	width: 50%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	color: #C9BB8C;
+}
+
+.footer_right {
+	background-color:black ;
+	width: 50%;
+	float: left;
+	height: 100%;
+	overflow: hidden;
+	color: #C9BB8C;
+}
+
+.footer_title1 {
+	font-size: 2em;
+	display: block;
+	width: 100%;
+	height: 2em;
+	line-height: 2.5em;
+	padding-left: 2em;
+	color: #C9BB8C;
+}
+
+.foooter_a {
+	text-decoration: none;
+	color: black;
+	font-family: "黑体";
+	font-size: 1.3em;
+	padding-left: 250px;
+	line-height: 2em;
+	color: #C9BB8C;
+}

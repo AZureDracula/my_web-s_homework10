@@ -1,0 +1,194 @@
+
+#all_compete{
+	 width: 100%;
+	 background-color: azure;
+	 height: 5000px;
+}
+#compete_connet_all_div{
+	height: 1000px;
+}
+#compete_connet_top_div{
+	width: 960px;
+	height: 180px;
+	margin-top:20px ;
+}
+#compete_top_left{
+	width: 255px;
+	height: 180px;
+	display: inline-block;
+	background-image: url(../img/bg_zxyz.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+#compete_top_mid{
+
+	width: 440px;
+	height: 180px;
+	display: inline-block;
+	
+}
+#compete_top_mid_1{
+	width: 440px;
+	height: 90px;
+
+	text-align: center;
+}
+#compete_top_mid_2{
+	width: 440px;
+	height: 90px;
+
+	text-align: center;	
+}
+#compete_top_right{
+		width: 255px;
+	height: 180px;
+	display: inline-block;
+	background-image: url(../img2/fbyz.jpg); 
+	background-size:  auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+#compete_team_1_left{
+	position: absolute;
+	top: 130px;
+	left: 340px;
+	font-weight: 600;
+	font-size: 20px;
+	display: inline-block;
+	
+}
+#compete_team_1_right{
+	position: absolute;
+	top: 130px;
+	left: 530px;
+	font-weight: 600;
+	font-size: 20px;
+	display: inline-block;
+}
+#compete_team_2_left{
+	
+	position: absolute;
+	top: 220px;
+	left: 340px;
+	font-weight: 600;
+	font-size: 20px;
+	display: inline-block;
+}
+#compete_team_2_right{
+	position: absolute;
+	top: 220px;
+	left: 540px;
+	font-weight: 600;
+	font-size: 20px;
+	display: inline-block;
+}
+#compete_team_1_bottom{
+	position: absolute;
+	left: 455px;
+	top: 165px;
+	font-family: "黑体";
+	font-size: 15px;
+	display: inline-block;
+		border: 1px solid #16B13A;
+	border-radius: 10px;
+	color: #16B13A;
+	height: 22px;
+	width: 66px;
+	line-height: 22px;
+	text-align: center;
+	cursor: pointer;
+}
+#compete_team_2_bottom{
+	position: absolute;
+	left: 455px;
+	 top: 257px;
+	font-family: "黑体";
+	font-size: 15px;
+	display: inline-block;
+	border: 1px solid #16B13A;
+	border-radius: 10px;
+	color: #16B13A;
+	height: 22px;
+	width: 66px;
+	line-height: 22px;
+	text-align: center;
+	cursor: pointer;
+}
+#vs1{
+	position: absolute;
+	top: 135px;
+	left:470px;
+	font-weight: 600;
+	font-size: 20px;
+	display: inline-block;
+}
+#vs2{
+	position: absolute;
+	top: 225px;
+	left:470px;
+	font-weight: 600;
+	font-size: 20px;
+	display: inline-block;
+}
+/************************************************************/
+.qd_title  {
+	height: 50px;
+	line-height: 50px;
+	font-family: "微软雅黑";
+	font-size: 24px;
+	font-weight: bold;
+	color: #229144;
+	background-color: white;
+	border-bottom: 1px solid greenyellow;
+	text-align: center;
+}
+
+.compete_mid_all{
+	
+	width: 960px;
+	height: 2000px;
+	text-align: center;
+}
+.qd_all{
+	width: 960px;
+	height: 1500px;
+	display: inline-block;
+	margin-right: 40px;
+	border: 1px solid greenyellow;
+	background-color: white;
+	margin-left: 10px;
+}
+
+.qd_xx{
+
+	width: 690px;
+	height: 110px;
+	margin-bottom: 20px;
+	background-color: white;
+	display: inline-block;
+	
+}
+.qd_logo{
+	margin-top:10px ;
+	display: inline-block;
+	
+}
+.qd_xq{
+	display: inline-block;
+}
+.qd_team_name{
+	text-align: center;
+	line-height: 50px;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	font-weight: bold;
+	height: 50px;
+	width: 610px;
+	
+}
+.c_name{
+	text-align: center;
+	margin-top: 10px;
+}
